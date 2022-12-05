@@ -1,0 +1,70 @@
+.sidenav{ // botoes do lado esquerdo
+    height: 100%; //certo
+    background-color: #ffffff;
+    width: 285px; // certo
+    position:  absolute; // certo
+    //z-index: fixed;
+    top: 0;
+    left: 0; // certo
+    //overflow-x: hidden;
+    //overflow-y: visible;
+    //padding-top: 0.7%;
+}  
+
+.btn1{
+    margin-left: 252px;
+    margin-top:18px;
+    width: 33px;
+    height: 33px;
+    border: none;
+    background-color: #0068DF;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 6px 0px 0px 6px;
+}    
+
+.btn1:hover{
+    background-color: #EFEFEF;
+    color: #0068DF;
+    transition-duration: 0.2s;
+    box-shadow: 0 12px 10px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+
+
+.buttonPage {
+    align-self: center;
+    border: none;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    background-color: #0068DF;
+    border-radius: 6px;
+    margin-top: 16px;
+    top: 378px;
+    left: 41px;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 16px;
+    width: 207px;
+    height: 50px;
+}
+
+main{
+    margin-left: 336px;
+}
+
+.title{
+    color: black;
+    margin-top: 65px;
+    margin-left: 20px;
+}
+
+.conversas{
+    margin-top: 71px;
+}
+
+.btnConversas{
+    border: none;
+    margin-right: 92px;
+    flex-direction: row;
+}
